@@ -74,14 +74,16 @@ export class BurgerBuilder extends Component {
                         purchasable={this.updatePurchaseState(this.props.ings)}
                         ordered={this.purchaseHandler}
                         isAuth={this.props.isAuthenticated}
-                        price={this.props.price} />
+                        price={this.props.price} 
+                    />
                 </Aux>
             );
             orderSummary = <OrderSummary
                 ingredients={this.props.ings}
                 price={this.props.price}
                 purchaseCancelled={this.purchaseCancelHandler}
-                purchaseContinued={this.purchaseContinueHandler} />;
+                purchaseContinued={this.purchaseContinueHandler} 
+            />;
         }
         // {salad: true, meat: false, ...}
         return (
