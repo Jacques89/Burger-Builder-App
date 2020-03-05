@@ -5,6 +5,7 @@
     border-radius: 0 0 30px 30px;
     box-shadow: inset -15px 0 #c15711;
     margin: 2% auto;
+    padding-bottom: 25px;
 }
 
 .BreadTop {
@@ -13,8 +14,9 @@
     background: linear-gradient(#bc581e, #e27b36);
     border-radius: 50% 50% 0 0;
     box-shadow: inset -15px 0 #c15711;
-    margin: 2% auto;
+    margin: 3% auto;
     position: relative;
+    padding-top: 30px;
 }
 
 .Seeds1 {

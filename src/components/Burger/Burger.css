@@ -5,6 +5,14 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+    overflow: auto;
+}
+
+@media (min-width: 300px) and (min-height: 400px) {
+    .Burger {
+        width: 400px;
+        height: 416px;
+    }
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
@@ -17,13 +25,20 @@
 @media (min-width: 500px) and (min-height: 401px) {
     .Burger {
         width: 450px;
-        height: 323px;
+        height: 417px;
     }
 }
 
 @media (min-width: 1000px) and (min-height: 700px) {
     .Burger {
         width: 500px;
-        height: 326px;
+        height: 416px;
+    }
+}
+
+@media (min-width: 1400px) and (min-height: 700px) {
+    .Burger {
+        width: 600px;
+        height: 503px;
     }
 }
