@@ -8,8 +8,6 @@
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
     padding: 10px 0;
-
-    
 }
 
 .OrderButton {
@@ -51,5 +49,14 @@
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .BuildControls {
+        width: 110%;
+    }
+    .OrderButton {
+        margin-right: 1.9rem;
     }
 }

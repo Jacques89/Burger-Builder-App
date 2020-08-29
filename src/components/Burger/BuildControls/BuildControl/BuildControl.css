@@ -55,3 +55,11 @@
     background-color: #99703F;
     color: white;
 }
+
+@media screen and (max-width: 320px) {
+    .BuildControl {
+        width: 70%;
+        padding: 5px;
+        margin-right: 2rem;
+    }
+}
